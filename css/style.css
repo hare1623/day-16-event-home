@@ -1,0 +1,47 @@
+.container-fluid{
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    height: max-content;
+
+}
+
+h1{
+    background-color: azure;
+    margin : 10px auto 25px;
+    padding: 10px auto 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.events{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.items{
+    font-size: 20px;
+    background-color: burlywood;
+    margin: 10px;
+    width: 300px;
+    height: max-content;
+    display: flex;
+}
+
+.items h4{
+    margin: 10px auto 10px;
+    padding: 10px auto 20px;
+}
+
+.items img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: start;
+}
